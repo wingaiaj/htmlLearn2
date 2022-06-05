@@ -1,0 +1,45 @@
+*{
+    color: threeddarkshadow;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aabbcc;
+}
+
+div {
+    position: absolute;
+    float: left;
+}
+
+#div_container {
+    width: 80%;
+    height: 100%;
+    /*border: 1px solid blue;*/
+    margin-left: 10%;
+    padding-bottom: 100%;
+    background-color: honeydew;
+    border-radius: 10px;
+}
+#tbl_fruit{
+    margin-top: 200px;
+    margin-left: 225px;
+}
+#tbl_fruit ,#tbl_fruit tr,#tbl_fruit th,#tbl_fruit td{
+
+    line-height: 28px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width:900px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "黑体";
+    font-weight: lighter;
+}
+#tbl_fruit th{
+    font-size: 25px;
+}
+.delImg{
+    width: 24px;
+    height: 24px;
+}
